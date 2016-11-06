@@ -1,0 +1,19 @@
+=== Introduction ===
+* [[Manual/The structure of WikiToLearn|Structure of WikiToLearn]]
+
+=== Core concepts ===
+* [[Manual/Core concepts: Course|Course]]
+* [[Manual/Core concepts: Chapter|Chapter]]
+* [[Manual/Core concepts: Section|Section]]
+
+=== Editing ===
+* [[Manual/The Visual Editor|The Visual Editor]]
+* [[Manual/Using templates|Using templates]]
+* [[Manual/Creating books|Creating books]]
+
+=== External Content ===
+* [[Manual/Importing from LaTeX|Importing from LaTeX]]
+* [[Manual/Importing from Word|Importing from Word]]
+
+=== Development ===
+* [[Manual/Contribution guide|Some more contribution possibilities]]
