@@ -34,6 +34,8 @@ def list_page_and_subpages(api_url, root_page, apfrom=None):
 
     response = requests.get(api_url + "?" + urlparse.urlencode(args))
     response_json = response.json()
+    if 'error' in response_json:
+        raise ValueError(response_json['error'])
     for pag in response_json['query']['allpages']:
         if pag['title'] == root_page or pag['title'].startswith(root_page+"/"):
             pages_titles.append(pag['title'])
@@ -54,6 +56,8 @@ def download_wikipage(api_url, page_title, out_basedir):
 
     response = requests.get(api_url + "?" + urlparse.urlencode(args))
     response_json = response.json()
+    if 'error' in response_json:
+        raise ValueError(response_json['error'])
     pages = response_json['query']['pages']
     for page_id in pages:
         page_split = page_title.split('/')
