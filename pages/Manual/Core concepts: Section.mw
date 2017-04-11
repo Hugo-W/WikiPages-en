@@ -1,6 +1,6 @@
 __TOC__
 
-A section is the lowest unit on the Course hierarchy and it consists in a single webpage.
+A section is the lowest unit on the Course hierarchy and it consists of a single webpage.
 Every section has its own title and content.
 
 == Add a section ==
@@ -31,7 +31,7 @@ Always remember to save the changes by clicking on the <code>Save Course</code> 
 
 == Move a section ==
 To move a section within the same chapter, you can simply use the drag and drop elements.
-We don't support moving sections within different chapters yet.
+We don't support moving sections between different chapters yet.
 For now, if needed, we suggest the following procedure:
 *copy the content of the section on a document;
 *delete the section you'd like to move;
