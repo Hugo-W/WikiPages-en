@@ -39,4 +39,4 @@ wikitolearn-guide-chapter-6: Manual/Using templates
 wikitolearn-guide-chapter-7: Manual/Creating books
 wikitolearn-guide-chapter-8: Manual/Importing from LaTeX
 wikitolearn-guide-chapter-9: Manual/Importing from Word
-wtl-messages: Project:Messages
+project_messages: Project:Messages
